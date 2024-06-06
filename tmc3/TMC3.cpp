@@ -831,7 +831,7 @@ ParseParameters(int argc, char* argv[], Parameters& params)
     "Propagate context state between P frames")
 
   ("disableAttributeCoding",
-    params.disableAttributeCoding, false,
+    params.disableAttributeCoding, true,
     "Ignore attribute coding configuration")
 
   ("enforceLevelLimits",
